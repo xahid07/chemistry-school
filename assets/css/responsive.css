@@ -1,0 +1,33 @@
+@media (min-width:992px){
+
+    .right-col{
+        padding: 5rem   ;
+        background-color: #330727;
+        color: #fff;
+
+    }
+    .col-small{
+        max-width: 20%;
+        transform: rotate(-90deg);
+    }
+    .col-big{
+        max-width: 80%;
+    }
+    .contact-info{
+        border-top-right-radius: 25%;
+        border-bottom-left-radius: 15%;
+        border-top: 2px solid #330727;
+        border-bottom: 2px solid #330727;
+        border-right: 2px solid #330727;
+        border-left: 2px solid #330727;
+    }
+    .contact-us{
+        border-bottom-right-radius: 15%;
+        border-top-left-radius: 25%;
+        border-left: 2px solid #330727;
+        border-top: 2px solid #330727;
+        border-bottom: 2px solid #330727;
+        border-right: 2px solid #330727;
+    }
+}
+
