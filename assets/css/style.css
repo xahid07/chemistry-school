@@ -85,6 +85,9 @@ header::before{
 .logo a .logo_img {
 	max-width: 30rem;
 }
+.main_menu{
+    display: none;
+}
 .main_menu .menu-group{
     margin-right: 2rem ;
 }
@@ -179,6 +182,37 @@ header::before{
 main{
     min-height: 100vh;
     padding: 2rem 0;
+}
+
+/* Mobile Menu */
+.mobile-bars{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:30px;
+    cursor: pointer;
+    
+}
+.bar{
+    height: 3px;
+    background: #f80b0b;
+    width: 2.5rem;
+    border-radius: 5px;
+    transform: rotate(0deg);
+    opacity: 1;
+    transition: 0.3s ease;
+}
+.bar2{
+    width: 2rem;
+}
+.cross .bar1{
+    transform: rotate(45deg);
+}
+.cross .bar2{
+    opacity: 0;
+}
+.cross .bar3{
+    transform: rotate(-45deg);
 }
 
 /* --------------- */
@@ -527,11 +561,11 @@ footer{
     padding: .5rem 1rem;
     text-align: center;
     color: #fff;
-    font-family: 'rst';
+    font-family: 'rl';
 }
 footer small a{
     color: #05bae2;
-    font-family: 'rsl';
+    font-family: 'rb';
 }
 
 /* --------------- */

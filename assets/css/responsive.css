@@ -22,12 +22,24 @@
         border-left: 2px solid #330727;
     }
     .contact-us{
-        border-bottom-right-radius: 15%;
+        border-bottom-right-radius: 15%;    
         border-top-left-radius: 25%;
         border-left: 2px solid #330727;
         border-top: 2px solid #330727;
         border-bottom: 2px solid #330727;
         border-right: 2px solid #330727;
+    }
+    .main_menu{
+        display: flex;
+    }
+    .mobile-bars{
+        display: none;
+        
+    }
+}
+@media (max-width:768px){
+    .video-wrap iframe{
+        width:100%;
     }
 }
 
