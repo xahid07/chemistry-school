@@ -85,9 +85,6 @@ header::before{
 .logo a .logo_img {
 	max-width: 30rem;
 }
-.main_menu{
-    display: none;
-}
 .main_menu .menu-group{
     margin-right: 2rem ;
 }
@@ -191,8 +188,7 @@ main{
     justify-content: space-between;
     height:30px;
     cursor: pointer;
-    
-}
+} 
 .bar{
     height: 3px;
     background: #f80b0b;
@@ -206,13 +202,17 @@ main{
     width: 2rem;
 }
 .cross .bar1{
-    transform: rotate(45deg);
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+	-ms-transform: rotate(-45deg) translate(-9px, 6px);
+	transform: rotate(-45deg) translate(-10px, 7px);
 }
 .cross .bar2{
     opacity: 0;
 }
 .cross .bar3{
-    transform: rotate(-45deg);
+    -webkit-transform: rotate(45deg) translate(-12px, -8px);
+	-ms-transform: rotate(45deg) translate(-12px, -8px);
+	transform: rotate(45deg) translate(-12px, -8px);
 }
 
 /* --------------- */

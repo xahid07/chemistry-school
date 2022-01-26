@@ -23,6 +23,16 @@ function topFunction() {
 
 $(function () {
 
+    //SIDE MENU IN MOBILE
+    $('.mobile-bars').click(function () {
+        if ($('.mobile-bars').hasClass('cross')) {
+            $('.main_menu').css("right", "0px");
+        }
+        else{
+            $('.main_menu').css("right", "-100%");
+        }
+    });
+
     // STICKY HEADER
     $(window).on("scroll", function () {
         if ($(window).scrollTop()) {
@@ -35,14 +45,6 @@ $(function () {
 
     //Simple Lightbox Enable
     $('.gallery a').simpleLightbox();
-
-    //Video LightBox Enable
-    $('#vidBox').VideoPopUp({
-        // trigger element
-            opener:"trigger",
-            idvideo:"intro-video"
-        
-        });
 })
 
 
