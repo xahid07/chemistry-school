@@ -124,6 +124,7 @@ section {
 	font-family: 'rs';
 	font-weight: 900;
 	left: 0%;
+	width:100%;
 	text-shadow: 0 0 2px #00000090;
 	/* transform: translate(50%,50%); */
 }

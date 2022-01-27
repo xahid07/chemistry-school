@@ -46,8 +46,23 @@
         display: none;
     }
 
-    .video-wrap iframe {
+    .video-wrap iframe,.info-box,#contact .col {
         width: 100%;
+    }
+    h2.sec-title{
+        text-align: center!important;
+        display: block;
+    }
+    hr{
+        margin: auto;
+        margin-bottom: 3rem;
+        width: 80%!important;
+    }
+    .flex-between{
+        justify-content: center;
+    }
+    .dept, .faculty,#gallery .gallery img{
+        max-width: 100%;
     }
 }
 
@@ -95,6 +110,9 @@
 
 @media (max-width:768px) {
     .video-wrap iframe {
+        width: 100%;
+    }
+    .vidBox .intro-video{
         width: 100%;
     }
 }

@@ -314,7 +314,7 @@ main{
     border: 1px solid #33072765;
 }
 .dept .wrap .img-container{
-    max-width: 340px;
+    max-width: 100%;
     overflow:hidden;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
