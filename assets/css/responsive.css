@@ -47,6 +47,13 @@
     h2.sec-title{
         text-align: center!important;
         display: block;
+        min-width: auto;
+    }
+    .sec-title::before{
+        font-size: 3rem;
+        left: 50%;
+        top: -15%;
+        transform: translateX(-50%);
     }
     hr{
         margin: auto;
@@ -111,6 +118,12 @@
     #about .col{
         width: 100%!important;
     }
+    #about .right-col{
+        margin-top:2rem;
+    }
+    #about .right-col hr{
+        display: none;
+    }
     .col-small {
         transform: rotate(0deg);
     }
@@ -123,7 +136,8 @@
     .video-wrap iframe {
         width: 100%;
     }
-    .vidBox .intro-video{
+    .vidBox #intro-video{
         width: 100%;
+        height: 100%;
     }
 }
