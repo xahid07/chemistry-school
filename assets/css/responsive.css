@@ -60,12 +60,15 @@
         margin-bottom: 3rem;
         width: 80%!important;
     }
-    .flex-between,.main_menu .flex-between{
+    .flex-between{
         justify-content: center;
     }
-    .navigation .flex-between{
+    .navigation .container.flex-between{
         justify-content: space-between;
     }
+    /* .main_menu.flex-between{
+        justify-content: center;
+    } */
     .dept, .faculty,#gallery .gallery img{
         max-width: 100%;
     }
